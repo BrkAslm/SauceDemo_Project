@@ -15,6 +15,6 @@ import static stepDefinitions.Hooks.driver;
 public class US_002_FailedLogin {
     @Given("assertion for unsuccesful login")
     public void assertionForUnsuccesfulLogin() {
-   Assert.assertEquals("Epic sadface: Username and password do not match any user in this service",commonPage.getLoginPage().errorText.getText());
+        Assert.assertEquals("Epic sadface: Username and password do not match any user in this service",commonPage.getLoginPage().errorText.getText());
     }
 }

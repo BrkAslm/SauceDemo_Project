@@ -14,7 +14,7 @@ public class LoginPage extends CommonPage {
     @FindBy(id = "login-button")
     public WebElement loginButton;
 
-    @FindBy(css = "[data-test=error]")
+    @FindBy(css = "h3[data-test='error']")
     public WebElement errorText;
 
 }
